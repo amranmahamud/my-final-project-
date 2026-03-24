@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Contact - My Food Recipe</title>
-    <link rel="stylesheet" href="index.css">
+<meta charset="UTF-8">
+<title>Contact</title>
+<link rel="stylesheet" href="index.css">
 </head>
 <body>
-
 <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
@@ -17,12 +16,21 @@
     <a href="classes_and_ids.html">Classes & IDs</a>
 </nav>
 
-<hr>
+<div class="content-wrapper">
+    <h1>Contact Us</h1>
+    <form>
+        <label>Name:</label><br>
+        <input type="text" placeholder="Your Name" required><br><br>
 
-<h2>Contact Us</h2>
-<p>If you have any questions, suggestions, or feedback, feel free to reach out!</p>
-<p>Email: recipe@example.com</p>
-<p>Phone: +254 700 000 000</p>
+        <label>Email:</label><br>
+        <input type="email" placeholder="Your Email" required><br><br>
+
+        <label>Message:</label><br>
+        <textarea placeholder="Your Message" rows="5" required></textarea><br><br>
+
+        <button type="submit">Send</button>
+    </form>
+</div>
 
 <footer>
     <p>Recipe Collection © 2026</p>
