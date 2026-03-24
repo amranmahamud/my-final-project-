@@ -1,85 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Blog</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>My Blog</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Menu Bar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-<!-- NAVBAR -->
-<nav>
-    <h2 class="logo">MyBlog</h2>
-    <div class="menu">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="services.html">Services</a>
-        <a href="contact.html">Contact</a>
+  <!-- Two Columns -->
+  <div class="columns">
+    <div class="left">
+      <h2>Welcome to My Blog</h2>
+      <p>This is the homepage with formatted paragraphs. Blogging is a way to share ideas, stories, and creativity.</p>
+      <p>Here you’ll find posts about design, technology, and personal reflections.</p>
     </div>
-</nav>
-
-<!-- HERO SECTION -->
-<header class="hero">
-    <h1>Welcome to My Blog</h1>
-    <p>Simple. Clean. Black & White Aesthetic.</p>
-</header>
-
-<!-- MAIN CONTENT (2 COLUMNS ✔ requirement) -->
-<div class="container">
-
-    <!-- LEFT COLUMN (BLOG POSTS) -->
-    <div class="column main">
-
-        <div class="post">
-            <h2>My First Post</h2>
-            <p>This is my first blog post. I am learning how to build a website using HTML and CSS.</p>
-        </div>
-
-        <div class="post">
-            <h2>Learning Web Design</h2>
-            <p><b>Bold text example</b> and <i>italic text example</i> and <u>underline example</u>.</p>
-        </div>
-
-        <div class="post">
-            <h2>Why I Love Simple Design</h2>
-            <p>Black and white designs are clean, minimal, and easy to read.</p>
-        </div>
-
-        <div class="post">
-            <h2>Another Post</h2>
-            <p>This blog will include images, videos, tables, and more.</p>
-        </div>
-
-        <div class="post">
-            <h2>Final Post</h2>
-            <p>This satisfies the requirement of multiple paragraphs.</p>
-        </div>
-
+    <div class="right">
+      <h3>Quick Links</h3>
+      <ul>
+        <li>Latest Posts</li>
+        <li>Popular Articles
+          <ul>
+            <li>Web Design</li>
+            <li>Digital Media</li>
+            <li>Creative Writing</li>
+          </ul>
+        </li>
+        <li>Archives</li>
+        <li>Resources</li>
+      </ul>
     </div>
+  </div>
 
-    <!-- RIGHT COLUMN (SIDEBAR) -->
-    <div class="column sidebar">
-
-        <h3>About Me</h3>
-        <p>I am building a blog for my assignment.</p>
-
-        <h3>Categories</h3>
-        <ul>
-            <li>Tech</li>
-            <li>Lifestyle</li>
-            <li>Design</li>
-            <li>Food</li>
-            <li>Travel</li>
-        </ul>
-
-    </div>
-
-</div>
-
-<!-- FOOTER -->
-<footer>
-    <p>© 2026 My Blog | All Rights Reserved</p>
-</footer>
-
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 My Blog. All rights reserved.</p>
+  </footer>
 </body>
 </html>
